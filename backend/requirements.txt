@@ -1,0 +1,7 @@
+Flask
+neo4j
+langchain
+langchain-community
+flask-cors
+python-dotenv
+langchain-groq

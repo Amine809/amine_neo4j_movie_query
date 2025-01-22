@@ -1,0 +1,11 @@
+# Backend ignores
+/backend/venv/            # Virtual environment
+/backend/.env             # Sensitive credentials
+*.pyc                     # Compiled Python files
+__pycache__/              # Python cache folders
+
+# Frontend ignores
+/frontend/node_modules/   # Node.js modules
+/frontend/build/          # Build folder for React
+.DS_Store                 # macOS metadata file
+.env                      # Any environment files
