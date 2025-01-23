@@ -1,4 +1,4 @@
-# Backend for Amine Tanit Project
+# Backend for Movie Neo4j Project
 
 ## Overview
 The backend is built using **Flask** and **Neo4j** to serve REST API endpoints for interacting with a graph database. This project integrates **LangChain** and **ChatGroq** to provide query functionalities over the Neo4j database.
@@ -56,7 +56,7 @@ python app.py
   - **Description**: Provides sample queries that can be used with the /query endpoint.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Frontend for Amine Tanit Project
+# Frontend for Amine Neo4j Project
 
 ## Overview
 The frontend is built using **React** and **Material-UI** to create an interactive user interface that communicates with the backend API. It provides a seamless experience to query the Neo4j graph database via RESTful API endpoints, using **Flask** on the backend.
