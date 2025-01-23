@@ -19,7 +19,7 @@ Before running this backend, ensure you have:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/amine_tanit.git
+   git clone https://github.com/Amine809/amine_neo4j_movie_query.git
    cd backend
    ```
 2. Set up virtual environment:
