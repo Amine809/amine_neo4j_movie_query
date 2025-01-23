@@ -66,6 +66,7 @@ def examples():
         {"question": "What is the genre of the movie Toy Story?"},
         {"question": "What are the movies that Martin Scorsese directed?"},
         {"question": "What are the actors of movie Sabrina"},
+        {"question": "what is the imdbrating for movie Grumpier Old Men"}
         
 
     ]
