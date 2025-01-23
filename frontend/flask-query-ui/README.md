@@ -16,14 +16,18 @@ Before running this frontend, ensure you have:
 - **npm** (Node Package Manager) installed.
 
 ## Installation
-1. Clone the repository:
+1. Move to frontend folder and current react folder app :
    ```bash
-   git clone https://github.com/your-username/amine_tanit.git
    cd frontend
+   cd flask-query-ui
    ```
 2. Install Node.js dependencies:
    ```bash
    npm install
+   ```
+3. Starting the frontend server,keep flask app running to test results:
+   ```bash
+   npm start
    ```
 ## Feature explained
 - **1)Query Interface:**
