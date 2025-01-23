@@ -50,6 +50,7 @@ python app.py
   - **Description**: Accepts natural language queries and returns results from the Neo4j graph.
   - **Request**:JSON payload with a "query" key.
   - **Response**: JSON containing the query results.
+    
 **2)Examples Endpoint**
 - **GET `/examples`**
   - **Description**: Provides sample queries that can be used with the /query endpoint.
