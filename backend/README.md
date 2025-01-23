@@ -32,7 +32,7 @@ Before running this backend, ensure you have:
 
    ```
 ## Configuration
-Create a `.env` file in the `backend` folder with the following environment variables:
+Create a `.env` file in the `backend` folder with the following environment variables,add your current neo4j crediantials and GROQ_API_KEY:
 ```bash
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USERNAME=neo4j
