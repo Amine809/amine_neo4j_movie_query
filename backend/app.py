@@ -60,15 +60,14 @@ def query():
 @app.route('/examples', methods=['GET'])
 def examples():
     examples_list = [
-        {"question": "How many artists are there?"},
-        {"question": "Which actors played in the movie Casino?"},
-        {"question": "How many movies has Tom Hanks acted in?"},
-        {"question": "List all the genres of the movie Schindler's List"},
-        {"question": "Which actors have worked in movies from both the comedy and action genres?"},
-        {"question": "Which directors have made movies with at least three different actors named 'John'?"},
-        {"question": "Identify movies where directors also played a role in the film."},
         {"question": "Find the actor with the highest number of movies in the database."},
-        {"question": "Which actors have acted in movies spanning at least three different genres?"},
+        {"question": "Who is the director of the movie Casino?"},
+        {"question": "Which actors have acted together in Jumanji?"},
+        {"question": "What is the genre of the movie Toy Story?"},
+        {"question": "What are the movies that Martin Scorsese directed?"},
+        {"question": "What are the actors of movie Sabrina"},
+        
+
     ]
     return jsonify({"examples": examples_list}), 200
 
